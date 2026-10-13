@@ -9,6 +9,9 @@ Explore the UCI Heart Disease dataset using R, with a focus on data inspection, 
 * Number of records: 303
 * Number of variables: 14
 * Original data file: `processed.cleveland.data`
+* Dataset source: [UCI Machine Learning Repository — Heart Disease](https://archive.ics.uci.edu/dataset/45/heart+disease)
+* Subset used: Cleveland
+* Data file: `processed.cleveland.data`
 
 ## 3. Data Quality
 
@@ -90,3 +93,12 @@ This result does not establish causation. It also does not provide sufficient ev
 * Potential confounding variables were not controlled for in these comparisons.
 * Missing values were identified in `ca` and `thal`. No imputation was performed in the analyses presented here.
 * Statistical associations do not establish causation. A non-significant result does not prove that no association exists
+
+## 10. How to Run the Analysis
+
+1. Clone or download this repository.
+2. Open `UCI_Heart_Disease_Analysis.Rproj` in RStudio.
+3. Open `heart_disease_analysis.R`.
+4. Run the script from beginning to end.
+
+**Requirements:** R and RStudio.
