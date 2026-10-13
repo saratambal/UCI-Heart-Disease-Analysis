@@ -101,4 +101,10 @@ This result does not establish causation. It also does not provide sufficient ev
 3. Open `heart_disease_analysis.R`.
 4. Run the script from beginning to end.
 
-**Requirements:** R and RStudio.
+**Requirements:** R and the `ggplot2` package.
+
+If `ggplot2` is not installed, run the following command in the R console:
+
+```r
+install.packages("ggplot2")
+```
